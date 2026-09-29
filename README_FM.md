@@ -151,10 +151,6 @@ statistical uncertainty is reported.
 
 ## 5. Is there an asymmetry between wild type and mutant?
 
-![Asymmetry of the 6 wild-type/mutant pairs](asymmetry_plot_FM.png)
-
-*Figure 1: Asymmetry A = (WT − mutant) / (WT + mutant) for each strain, with
-1σ error bars. Blue points are more than 3σ from A = 0 (dashed line).*
 
 | Pair | X − (−X) | n σ | Asymmetry A | Asymmetric? | WT higher in | Upper limit on A |
 |---|---:|---:|---:|:---:|:---:|---:|
