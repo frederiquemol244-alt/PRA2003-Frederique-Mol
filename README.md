@@ -723,7 +723,7 @@ All pairs: 4 of 18 pairs show an asymmetry above 3 sigma.
 ```
 
 On Windows the Python command is usually `python` instead of `python3`.
-To start from the raw data instead (about 25 minutes extra), see
+To start from the raw data instead (10 to 25 minutes extra, depending on the computer), see
 "Running the analysis" below.
 
 ### Requirements
@@ -763,7 +763,7 @@ output of the one before.
 
 | Step | Script | Needs | Produces | Time |
 |:---:|---|---|---|---|
-| 1 | `Week4_part1_counting_FM.r` | `output-Set1.txt` … `output-Set10.txt` | `sub_sample_results_FM.csv` | ~21 min |
+| 1 | `Week4_part1_counting_FM.r` | `output-Set1.txt` … `output-Set10.txt` | `sub_sample_results_FM.csv` | 7 to 21 min |
 | 2 | `Week4_part2_subsampling_FM.r` | `sub_sample_results_FM.csv` | `final_results_FM.csv` | seconds |
 | 3 | `Week4_part3_asymmetry_FM.r` | `final_results_FM.csv`, `sub_sample_results_FM.csv` | `three_sigma_results_FM.csv` | seconds |
 | 3b | `Week4_part3_plot_FM.py` | `three_sigma_results_FM.csv` | `asymmetry_plot_FM.png` (Figure 1) | seconds |
@@ -831,7 +831,7 @@ errors and every CSV file came out identical to the one included.
 | Step 5: `Can't find 'momentum_sub_sample_results_FM.csv'` | Run step 4 first, or keep the included CSV file in the folder. |
 | `ModuleNotFoundError: No module named 'pandas'` (or `numpy`, `matplotlib`) | Install the packages: `pip install pandas numpy matplotlib` (or `python3 -m pip install ...`), with the same Python you use to run the script. |
 | `python: command not found` | Use `python3` instead of `python` (macOS, Linux). |
-| Step 1 seems to hang | Each file takes about 2 minutes. Uncomment the `cat("Processing chunk"...)` line in `Week4_part1_counting_FM.r` to see progress. |
+| Step 1 seems to hang | Each file takes 1 to 2 minutes. Uncomment the `cat("Processing chunk"...)` line in `Week4_part1_counting_FM.r` to see progress. |
 
 ---
 

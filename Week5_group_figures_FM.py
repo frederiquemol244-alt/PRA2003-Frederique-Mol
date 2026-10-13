@@ -220,7 +220,7 @@ def draw_panel(ax, y, sigma, y_low, y_high, unit):
     ax.set_xlim(0.7, len(bins) + 0.3)
     ax.set_ylim(y_low, y_high)
     ax.set_xticks(bins)
-    ax.set_xticklabels(bin_labels, fontsize=9)
+    ax.set_xticklabels(bin_labels, fontsize=8)
     ax.set_xlabel(f"|p| bin ({momentum_unit})")
     ax.set_ylabel("Mean difference D = WT - mutant\n[" + unit_text(unit) + " bacteria per event]")
 

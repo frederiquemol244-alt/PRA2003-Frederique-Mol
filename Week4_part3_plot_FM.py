@@ -78,7 +78,7 @@ for ax, code, name in zip(axes, pair_codes, pair_names):
     for side in ["top", "right", "left"]:
         ax.spines[side].set_visible(False)
 
-axes[-1].set_xlabel("Mean asymmetry A = WT - mutant [average bacteria per event, times the factor under each name]")
+axes[-1].set_xlabel("Mean asymmetry A = WT - mutant\n[average bacteria per event, times the factor under each name]")
 fig.suptitle("Wild type minus mutant, 5M events (error bars: 1 sigma from the spread of 10 sub-samples)",
              fontsize=12)
 key = [Line2D([], [], marker="o", linestyle="none", color=colour_significant,
