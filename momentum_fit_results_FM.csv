@@ -1,0 +1,7 @@
+pair_code,pair_name,slope_per_bin,slope_uncertainty,slope_significance,slope_significant,intercept,intercept_uncertainty,chi2,ndf,constant_D,chi2_constant,ndf_constant,p_value_constant,depends_on_momentum
+211,E. coli,0.002774,0.001055,2.63,False,-0.002022,0.003606,0.19,3,0.006584,7.1,4,0.131,False
+321,B. subtilis,0.0005763,0.0003637,1.58,False,-0.0005719,0.001031,1.52,3,0.0008352,4.03,4,0.402,False
+2212,P. aeruginosa,0.002019,0.000289,6.99,True,-0.0008891,0.0007926,2.51,3,0.003723,51.31,4,1.92e-10,True
+3122,S. pneumoniae,0.0004353,0.0001158,3.76,True,-0.0002662,0.000322,1.64,3,0.000762,15.78,4,0.00334,False
+3312,M. tuberculosis,3.576e-05,6.019e-05,0.59,False,-3.056e-05,0.0001525,0.13,3,5.026e-05,0.49,4,0.975,False
+3334,Salmonella,6.786e-07,8.74e-06,0.08,False,5.238e-06,1.954e-05,0.04,3,6.546e-06,0.04,4,1.0,False

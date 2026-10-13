@@ -1,0 +1,301 @@
+sub_sample,pair_code,pair_name,momentum_bin,n_events,count_X,count_minusX
+output-Set1.txt,211,E. coli,0-0.654,461701,2037327,2038356
+output-Set1.txt,211,E. coli,0.654-1.32,461701,1889571,1888147
+output-Set1.txt,211,E. coli,1.32-2.68,461701,1827008,1821399
+output-Set1.txt,211,E. coli,2.68-5.88,461701,1797664,1795673
+output-Set1.txt,211,E. coli,>5.88,461701,1687127,1682209
+output-Set1.txt,321,B. subtilis,0-0.654,461701,137671,137818
+output-Set1.txt,321,B. subtilis,0.654-1.32,461701,217557,218429
+output-Set1.txt,321,B. subtilis,1.32-2.68,461701,248852,250058
+output-Set1.txt,321,B. subtilis,2.68-5.88,461701,256387,255776
+output-Set1.txt,321,B. subtilis,>5.88,461701,300380,298957
+output-Set1.txt,2212,P. aeruginosa,0-0.654,461701,37145,37000
+output-Set1.txt,2212,P. aeruginosa,0.654-1.32,461701,84234,82280
+output-Set1.txt,2212,P. aeruginosa,1.32-2.68,461701,121416,119087
+output-Set1.txt,2212,P. aeruginosa,2.68-5.88,461701,135043,132019
+output-Set1.txt,2212,P. aeruginosa,>5.88,461701,181753,176976
+output-Set1.txt,3122,S. pneumoniae,0-0.654,461701,7071,7008
+output-Set1.txt,3122,S. pneumoniae,0.654-1.32,461701,16959,16592
+output-Set1.txt,3122,S. pneumoniae,1.32-2.68,461701,27293,27104
+output-Set1.txt,3122,S. pneumoniae,2.68-5.88,461701,31451,31127
+output-Set1.txt,3122,S. pneumoniae,>5.88,461701,45608,44413
+output-Set1.txt,3312,M. tuberculosis,0-0.654,461701,775,808
+output-Set1.txt,3312,M. tuberculosis,0.654-1.32,461701,2027,2044
+output-Set1.txt,3312,M. tuberculosis,1.32-2.68,461701,3678,3663
+output-Set1.txt,3312,M. tuberculosis,2.68-5.88,461701,4597,4609
+output-Set1.txt,3312,M. tuberculosis,>5.88,461701,7055,7182
+output-Set1.txt,3334,Salmonella,0-0.654,461701,16,20
+output-Set1.txt,3334,Salmonella,0.654-1.32,461701,53,43
+output-Set1.txt,3334,Salmonella,1.32-2.68,461701,109,87
+output-Set1.txt,3334,Salmonella,2.68-5.88,461701,163,134
+output-Set1.txt,3334,Salmonella,>5.88,461701,253,260
+output-Set2.txt,211,E. coli,0-0.654,461835,2035259,2035656
+output-Set2.txt,211,E. coli,0.654-1.32,461835,1889902,1886321
+output-Set2.txt,211,E. coli,1.32-2.68,461835,1820409,1818425
+output-Set2.txt,211,E. coli,2.68-5.88,461835,1792805,1787855
+output-Set2.txt,211,E. coli,>5.88,461835,1678906,1671735
+output-Set2.txt,321,B. subtilis,0-0.654,461835,137198,137189
+output-Set2.txt,321,B. subtilis,0.654-1.32,461835,217968,217699
+output-Set2.txt,321,B. subtilis,1.32-2.68,461835,249363,249932
+output-Set2.txt,321,B. subtilis,2.68-5.88,461835,255531,254720
+output-Set2.txt,321,B. subtilis,>5.88,461835,298658,297015
+output-Set2.txt,2212,P. aeruginosa,0-0.654,461835,37730,36645
+output-Set2.txt,2212,P. aeruginosa,0.654-1.32,461835,83627,82828
+output-Set2.txt,2212,P. aeruginosa,1.32-2.68,461835,120712,119447
+output-Set2.txt,2212,P. aeruginosa,2.68-5.88,461835,134436,131174
+output-Set2.txt,2212,P. aeruginosa,>5.88,461835,180698,176938
+output-Set2.txt,3122,S. pneumoniae,0-0.654,461835,7006,6813
+output-Set2.txt,3122,S. pneumoniae,0.654-1.32,461835,16717,16362
+output-Set2.txt,3122,S. pneumoniae,1.32-2.68,461835,27266,26999
+output-Set2.txt,3122,S. pneumoniae,2.68-5.88,461835,31731,31390
+output-Set2.txt,3122,S. pneumoniae,>5.88,461835,45475,44425
+output-Set2.txt,3312,M. tuberculosis,0-0.654,461835,791,777
+output-Set2.txt,3312,M. tuberculosis,0.654-1.32,461835,2048,2072
+output-Set2.txt,3312,M. tuberculosis,1.32-2.68,461835,3689,3600
+output-Set2.txt,3312,M. tuberculosis,2.68-5.88,461835,4607,4704
+output-Set2.txt,3312,M. tuberculosis,>5.88,461835,7042,7007
+output-Set2.txt,3334,Salmonella,0-0.654,461835,24,11
+output-Set2.txt,3334,Salmonella,0.654-1.32,461835,52,38
+output-Set2.txt,3334,Salmonella,1.32-2.68,461835,84,93
+output-Set2.txt,3334,Salmonella,2.68-5.88,461835,153,150
+output-Set2.txt,3334,Salmonella,>5.88,461835,229,226
+output-Set3.txt,211,E. coli,0-0.654,461661,2031336,2029194
+output-Set3.txt,211,E. coli,0.654-1.32,461661,1883490,1881946
+output-Set3.txt,211,E. coli,1.32-2.68,461661,1816577,1816164
+output-Set3.txt,211,E. coli,2.68-5.88,461661,1790332,1786641
+output-Set3.txt,211,E. coli,>5.88,461661,1679804,1673455
+output-Set3.txt,321,B. subtilis,0-0.654,461661,136899,137168
+output-Set3.txt,321,B. subtilis,0.654-1.32,461661,218044,218033
+output-Set3.txt,321,B. subtilis,1.32-2.68,461661,248704,248444
+output-Set3.txt,321,B. subtilis,2.68-5.88,461661,255426,254814
+output-Set3.txt,321,B. subtilis,>5.88,461661,298444,295645
+output-Set3.txt,2212,P. aeruginosa,0-0.654,461661,37287,36560
+output-Set3.txt,2212,P. aeruginosa,0.654-1.32,461661,83686,83008
+output-Set3.txt,2212,P. aeruginosa,1.32-2.68,461661,120806,119600
+output-Set3.txt,2212,P. aeruginosa,2.68-5.88,461661,134842,130884
+output-Set3.txt,2212,P. aeruginosa,>5.88,461661,181008,176350
+output-Set3.txt,3122,S. pneumoniae,0-0.654,461661,7101,6768
+output-Set3.txt,3122,S. pneumoniae,0.654-1.32,461661,16895,16483
+output-Set3.txt,3122,S. pneumoniae,1.32-2.68,461661,27003,26741
+output-Set3.txt,3122,S. pneumoniae,2.68-5.88,461661,31686,31174
+output-Set3.txt,3122,S. pneumoniae,>5.88,461661,44943,44148
+output-Set3.txt,3312,M. tuberculosis,0-0.654,461661,817,738
+output-Set3.txt,3312,M. tuberculosis,0.654-1.32,461661,2039,1987
+output-Set3.txt,3312,M. tuberculosis,1.32-2.68,461661,3726,3657
+output-Set3.txt,3312,M. tuberculosis,2.68-5.88,461661,4606,4720
+output-Set3.txt,3312,M. tuberculosis,>5.88,461661,7177,6987
+output-Set3.txt,3334,Salmonella,0-0.654,461661,19,18
+output-Set3.txt,3334,Salmonella,0.654-1.32,461661,49,50
+output-Set3.txt,3334,Salmonella,1.32-2.68,461661,102,105
+output-Set3.txt,3334,Salmonella,2.68-5.88,461661,144,135
+output-Set3.txt,3334,Salmonella,>5.88,461661,220,248
+output-Set4.txt,211,E. coli,0-0.654,461686,2034390,2033398
+output-Set4.txt,211,E. coli,0.654-1.32,461686,1887295,1883994
+output-Set4.txt,211,E. coli,1.32-2.68,461686,1821490,1818905
+output-Set4.txt,211,E. coli,2.68-5.88,461686,1795397,1789872
+output-Set4.txt,211,E. coli,>5.88,461686,1681558,1676827
+output-Set4.txt,321,B. subtilis,0-0.654,461686,137297,136691
+output-Set4.txt,321,B. subtilis,0.654-1.32,461686,217997,217864
+output-Set4.txt,321,B. subtilis,1.32-2.68,461686,249058,249013
+output-Set4.txt,321,B. subtilis,2.68-5.88,461686,256065,254968
+output-Set4.txt,321,B. subtilis,>5.88,461686,299412,298376
+output-Set4.txt,2212,P. aeruginosa,0-0.654,461686,37230,36883
+output-Set4.txt,2212,P. aeruginosa,0.654-1.32,461686,84311,82297
+output-Set4.txt,2212,P. aeruginosa,1.32-2.68,461686,121873,119369
+output-Set4.txt,2212,P. aeruginosa,2.68-5.88,461686,134289,132723
+output-Set4.txt,2212,P. aeruginosa,>5.88,461686,181165,176809
+output-Set4.txt,3122,S. pneumoniae,0-0.654,461686,6955,6903
+output-Set4.txt,3122,S. pneumoniae,0.654-1.32,461686,16743,16471
+output-Set4.txt,3122,S. pneumoniae,1.32-2.68,461686,27163,26686
+output-Set4.txt,3122,S. pneumoniae,2.68-5.88,461686,31869,30764
+output-Set4.txt,3122,S. pneumoniae,>5.88,461686,45417,44573
+output-Set4.txt,3312,M. tuberculosis,0-0.654,461686,691,787
+output-Set4.txt,3312,M. tuberculosis,0.654-1.32,461686,2068,1956
+output-Set4.txt,3312,M. tuberculosis,1.32-2.68,461686,3706,3626
+output-Set4.txt,3312,M. tuberculosis,2.68-5.88,461686,4566,4490
+output-Set4.txt,3312,M. tuberculosis,>5.88,461686,7285,7001
+output-Set4.txt,3334,Salmonella,0-0.654,461686,15,13
+output-Set4.txt,3334,Salmonella,0.654-1.32,461686,55,47
+output-Set4.txt,3334,Salmonella,1.32-2.68,461686,100,96
+output-Set4.txt,3334,Salmonella,2.68-5.88,461686,132,133
+output-Set4.txt,3334,Salmonella,>5.88,461686,241,231
+output-Set5.txt,211,E. coli,0-0.654,461847,2031350,2028284
+output-Set5.txt,211,E. coli,0.654-1.32,461847,1882694,1881883
+output-Set5.txt,211,E. coli,1.32-2.68,461847,1818279,1815367
+output-Set5.txt,211,E. coli,2.68-5.88,461847,1790106,1786188
+output-Set5.txt,211,E. coli,>5.88,461847,1675955,1672268
+output-Set5.txt,321,B. subtilis,0-0.654,461847,137553,137801
+output-Set5.txt,321,B. subtilis,0.654-1.32,461847,217664,217433
+output-Set5.txt,321,B. subtilis,1.32-2.68,461847,249230,248570
+output-Set5.txt,321,B. subtilis,2.68-5.88,461847,254515,254152
+output-Set5.txt,321,B. subtilis,>5.88,461847,298752,296850
+output-Set5.txt,2212,P. aeruginosa,0-0.654,461847,37502,36568
+output-Set5.txt,2212,P. aeruginosa,0.654-1.32,461847,83600,81883
+output-Set5.txt,2212,P. aeruginosa,1.32-2.68,461847,120635,118938
+output-Set5.txt,2212,P. aeruginosa,2.68-5.88,461847,134549,131475
+output-Set5.txt,2212,P. aeruginosa,>5.88,461847,181275,176517
+output-Set5.txt,3122,S. pneumoniae,0-0.654,461847,6938,6838
+output-Set5.txt,3122,S. pneumoniae,0.654-1.32,461847,16814,16772
+output-Set5.txt,3122,S. pneumoniae,1.32-2.68,461847,27010,26582
+output-Set5.txt,3122,S. pneumoniae,2.68-5.88,461847,31648,31271
+output-Set5.txt,3122,S. pneumoniae,>5.88,461847,45183,43907
+output-Set5.txt,3312,M. tuberculosis,0-0.654,461847,765,754
+output-Set5.txt,3312,M. tuberculosis,0.654-1.32,461847,2010,1979
+output-Set5.txt,3312,M. tuberculosis,1.32-2.68,461847,3740,3647
+output-Set5.txt,3312,M. tuberculosis,2.68-5.88,461847,4627,4476
+output-Set5.txt,3312,M. tuberculosis,>5.88,461847,7153,6940
+output-Set5.txt,3334,Salmonella,0-0.654,461847,20,25
+output-Set5.txt,3334,Salmonella,0.654-1.32,461847,51,51
+output-Set5.txt,3334,Salmonella,1.32-2.68,461847,95,101
+output-Set5.txt,3334,Salmonella,2.68-5.88,461847,128,150
+output-Set5.txt,3334,Salmonella,>5.88,461847,255,244
+output-Set6.txt,211,E. coli,0-0.654,462025,2028977,2030801
+output-Set6.txt,211,E. coli,0.654-1.32,462025,1883516,1880962
+output-Set6.txt,211,E. coli,1.32-2.68,462025,1819427,1816953
+output-Set6.txt,211,E. coli,2.68-5.88,462025,1790467,1785837
+output-Set6.txt,211,E. coli,>5.88,462025,1680064,1673733
+output-Set6.txt,321,B. subtilis,0-0.654,462025,136363,136394
+output-Set6.txt,321,B. subtilis,0.654-1.32,462025,217944,217576
+output-Set6.txt,321,B. subtilis,1.32-2.68,462025,249148,248970
+output-Set6.txt,321,B. subtilis,2.68-5.88,462025,256182,254479
+output-Set6.txt,321,B. subtilis,>5.88,462025,298203,297495
+output-Set6.txt,2212,P. aeruginosa,0-0.654,462025,37163,36711
+output-Set6.txt,2212,P. aeruginosa,0.654-1.32,462025,83878,82310
+output-Set6.txt,2212,P. aeruginosa,1.32-2.68,462025,121652,118975
+output-Set6.txt,2212,P. aeruginosa,2.68-5.88,462025,134625,131785
+output-Set6.txt,2212,P. aeruginosa,>5.88,462025,180990,176202
+output-Set6.txt,3122,S. pneumoniae,0-0.654,462025,7030,6807
+output-Set6.txt,3122,S. pneumoniae,0.654-1.32,462025,16853,16350
+output-Set6.txt,3122,S. pneumoniae,1.32-2.68,462025,26984,26742
+output-Set6.txt,3122,S. pneumoniae,2.68-5.88,462025,31469,31233
+output-Set6.txt,3122,S. pneumoniae,>5.88,462025,45469,44471
+output-Set6.txt,3312,M. tuberculosis,0-0.654,462025,754,734
+output-Set6.txt,3312,M. tuberculosis,0.654-1.32,462025,1982,2038
+output-Set6.txt,3312,M. tuberculosis,1.32-2.68,462025,3634,3625
+output-Set6.txt,3312,M. tuberculosis,2.68-5.88,462025,4611,4513
+output-Set6.txt,3312,M. tuberculosis,>5.88,462025,6986,7031
+output-Set6.txt,3334,Salmonella,0-0.654,462025,12,19
+output-Set6.txt,3334,Salmonella,0.654-1.32,462025,47,49
+output-Set6.txt,3334,Salmonella,1.32-2.68,462025,89,96
+output-Set6.txt,3334,Salmonella,2.68-5.88,462025,163,134
+output-Set6.txt,3334,Salmonella,>5.88,462025,210,246
+output-Set7.txt,211,E. coli,0-0.654,461870,2030465,2030664
+output-Set7.txt,211,E. coli,0.654-1.32,461870,1885417,1880009
+output-Set7.txt,211,E. coli,1.32-2.68,461870,1819628,1818384
+output-Set7.txt,211,E. coli,2.68-5.88,461870,1790103,1787863
+output-Set7.txt,211,E. coli,>5.88,461870,1680661,1672319
+output-Set7.txt,321,B. subtilis,0-0.654,461870,136841,136408
+output-Set7.txt,321,B. subtilis,0.654-1.32,461870,217375,217812
+output-Set7.txt,321,B. subtilis,1.32-2.68,461870,248674,248840
+output-Set7.txt,321,B. subtilis,2.68-5.88,461870,255113,254809
+output-Set7.txt,321,B. subtilis,>5.88,461870,297817,296826
+output-Set7.txt,2212,P. aeruginosa,0-0.654,461870,37287,36821
+output-Set7.txt,2212,P. aeruginosa,0.654-1.32,461870,83635,82656
+output-Set7.txt,2212,P. aeruginosa,1.32-2.68,461870,120875,118467
+output-Set7.txt,2212,P. aeruginosa,2.68-5.88,461870,134309,132296
+output-Set7.txt,2212,P. aeruginosa,>5.88,461870,181562,176214
+output-Set7.txt,3122,S. pneumoniae,0-0.654,461870,6952,6827
+output-Set7.txt,3122,S. pneumoniae,0.654-1.32,461870,16452,16607
+output-Set7.txt,3122,S. pneumoniae,1.32-2.68,461870,27307,26494
+output-Set7.txt,3122,S. pneumoniae,2.68-5.88,461870,31278,31105
+output-Set7.txt,3122,S. pneumoniae,>5.88,461870,44945,44200
+output-Set7.txt,3312,M. tuberculosis,0-0.654,461870,794,705
+output-Set7.txt,3312,M. tuberculosis,0.654-1.32,461870,2033,1981
+output-Set7.txt,3312,M. tuberculosis,1.32-2.68,461870,3700,3800
+output-Set7.txt,3312,M. tuberculosis,2.68-5.88,461870,4573,4522
+output-Set7.txt,3312,M. tuberculosis,>5.88,461870,7029,6952
+output-Set7.txt,3334,Salmonella,0-0.654,461870,22,13
+output-Set7.txt,3334,Salmonella,0.654-1.32,461870,49,51
+output-Set7.txt,3334,Salmonella,1.32-2.68,461870,118,79
+output-Set7.txt,3334,Salmonella,2.68-5.88,461870,135,127
+output-Set7.txt,3334,Salmonella,>5.88,461870,226,224
+output-Set8.txt,211,E. coli,0-0.654,461891,2034139,2034958
+output-Set8.txt,211,E. coli,0.654-1.32,461891,1889976,1884837
+output-Set8.txt,211,E. coli,1.32-2.68,461891,1822698,1820569
+output-Set8.txt,211,E. coli,2.68-5.88,461891,1793331,1789629
+output-Set8.txt,211,E. coli,>5.88,461891,1680662,1675173
+output-Set8.txt,321,B. subtilis,0-0.654,461891,137045,136331
+output-Set8.txt,321,B. subtilis,0.654-1.32,461891,217000,219054
+output-Set8.txt,321,B. subtilis,1.32-2.68,461891,249107,248051
+output-Set8.txt,321,B. subtilis,2.68-5.88,461891,255694,255134
+output-Set8.txt,321,B. subtilis,>5.88,461891,299152,297730
+output-Set8.txt,2212,P. aeruginosa,0-0.654,461891,37207,36407
+output-Set8.txt,2212,P. aeruginosa,0.654-1.32,461891,83300,82671
+output-Set8.txt,2212,P. aeruginosa,1.32-2.68,461891,121631,119560
+output-Set8.txt,2212,P. aeruginosa,2.68-5.88,461891,134147,132629
+output-Set8.txt,2212,P. aeruginosa,>5.88,461891,181039,176911
+output-Set8.txt,3122,S. pneumoniae,0-0.654,461891,6962,6778
+output-Set8.txt,3122,S. pneumoniae,0.654-1.32,461891,16605,16539
+output-Set8.txt,3122,S. pneumoniae,1.32-2.68,461891,27042,26689
+output-Set8.txt,3122,S. pneumoniae,2.68-5.88,461891,31660,30957
+output-Set8.txt,3122,S. pneumoniae,>5.88,461891,45255,44032
+output-Set8.txt,3312,M. tuberculosis,0-0.654,461891,758,767
+output-Set8.txt,3312,M. tuberculosis,0.654-1.32,461891,2014,1971
+output-Set8.txt,3312,M. tuberculosis,1.32-2.68,461891,3650,3596
+output-Set8.txt,3312,M. tuberculosis,2.68-5.88,461891,4600,4535
+output-Set8.txt,3312,M. tuberculosis,>5.88,461891,7191,6863
+output-Set8.txt,3334,Salmonella,0-0.654,461891,18,11
+output-Set8.txt,3334,Salmonella,0.654-1.32,461891,42,31
+output-Set8.txt,3334,Salmonella,1.32-2.68,461891,100,105
+output-Set8.txt,3334,Salmonella,2.68-5.88,461891,140,134
+output-Set8.txt,3334,Salmonella,>5.88,461891,256,234
+output-Set9.txt,211,E. coli,0-0.654,461827,2029197,2028759
+output-Set9.txt,211,E. coli,0.654-1.32,461827,1882228,1883414
+output-Set9.txt,211,E. coli,1.32-2.68,461827,1818186,1814326
+output-Set9.txt,211,E. coli,2.68-5.88,461827,1788992,1784876
+output-Set9.txt,211,E. coli,>5.88,461827,1677240,1673740
+output-Set9.txt,321,B. subtilis,0-0.654,461827,136688,136722
+output-Set9.txt,321,B. subtilis,0.654-1.32,461827,217136,216770
+output-Set9.txt,321,B. subtilis,1.32-2.68,461827,248858,249090
+output-Set9.txt,321,B. subtilis,2.68-5.88,461827,255781,254679
+output-Set9.txt,321,B. subtilis,>5.88,461827,299546,295642
+output-Set9.txt,2212,P. aeruginosa,0-0.654,461827,37184,36438
+output-Set9.txt,2212,P. aeruginosa,0.654-1.32,461827,83601,82388
+output-Set9.txt,2212,P. aeruginosa,1.32-2.68,461827,120870,119223
+output-Set9.txt,2212,P. aeruginosa,2.68-5.88,461827,134234,131868
+output-Set9.txt,2212,P. aeruginosa,>5.88,461827,180994,175656
+output-Set9.txt,3122,S. pneumoniae,0-0.654,461827,6799,6866
+output-Set9.txt,3122,S. pneumoniae,0.654-1.32,461827,16857,16489
+output-Set9.txt,3122,S. pneumoniae,1.32-2.68,461827,26790,26461
+output-Set9.txt,3122,S. pneumoniae,2.68-5.88,461827,31555,30872
+output-Set9.txt,3122,S. pneumoniae,>5.88,461827,45058,44085
+output-Set9.txt,3312,M. tuberculosis,0-0.654,461827,758,792
+output-Set9.txt,3312,M. tuberculosis,0.654-1.32,461827,1950,2005
+output-Set9.txt,3312,M. tuberculosis,1.32-2.68,461827,3578,3669
+output-Set9.txt,3312,M. tuberculosis,2.68-5.88,461827,4712,4532
+output-Set9.txt,3312,M. tuberculosis,>5.88,461827,7168,7081
+output-Set9.txt,3334,Salmonella,0-0.654,461827,17,15
+output-Set9.txt,3334,Salmonella,0.654-1.32,461827,53,51
+output-Set9.txt,3334,Salmonella,1.32-2.68,461827,102,92
+output-Set9.txt,3334,Salmonella,2.68-5.88,461827,129,139
+output-Set9.txt,3334,Salmonella,>5.88,461827,254,216
+output-Set10.txt,211,E. coli,0-0.654,461650,2035831,2034998
+output-Set10.txt,211,E. coli,0.654-1.32,461650,1887133,1886784
+output-Set10.txt,211,E. coli,1.32-2.68,461650,1824064,1822274
+output-Set10.txt,211,E. coli,2.68-5.88,461650,1794410,1787329
+output-Set10.txt,211,E. coli,>5.88,461650,1683845,1678189
+output-Set10.txt,321,B. subtilis,0-0.654,461650,137541,137089
+output-Set10.txt,321,B. subtilis,0.654-1.32,461650,217530,217840
+output-Set10.txt,321,B. subtilis,1.32-2.68,461650,250752,249500
+output-Set10.txt,321,B. subtilis,2.68-5.88,461650,256303,256008
+output-Set10.txt,321,B. subtilis,>5.88,461650,300809,298282
+output-Set10.txt,2212,P. aeruginosa,0-0.654,461650,37300,36465
+output-Set10.txt,2212,P. aeruginosa,0.654-1.32,461650,83479,82737
+output-Set10.txt,2212,P. aeruginosa,1.32-2.68,461650,121517,119330
+output-Set10.txt,2212,P. aeruginosa,2.68-5.88,461650,134078,132863
+output-Set10.txt,2212,P. aeruginosa,>5.88,461650,181284,176606
+output-Set10.txt,3122,S. pneumoniae,0-0.654,461650,6899,6917
+output-Set10.txt,3122,S. pneumoniae,0.654-1.32,461650,16732,16419
+output-Set10.txt,3122,S. pneumoniae,1.32-2.68,461650,27172,26911
+output-Set10.txt,3122,S. pneumoniae,2.68-5.88,461650,31520,31082
+output-Set10.txt,3122,S. pneumoniae,>5.88,461650,45740,44443
+output-Set10.txt,3312,M. tuberculosis,0-0.654,461650,797,727
+output-Set10.txt,3312,M. tuberculosis,0.654-1.32,461650,2024,2044
+output-Set10.txt,3312,M. tuberculosis,1.32-2.68,461650,3743,3663
+output-Set10.txt,3312,M. tuberculosis,2.68-5.88,461650,4624,4600
+output-Set10.txt,3312,M. tuberculosis,>5.88,461650,7191,7147
+output-Set10.txt,3334,Salmonella,0-0.654,461650,23,14
+output-Set10.txt,3334,Salmonella,0.654-1.32,461650,44,57
+output-Set10.txt,3334,Salmonella,1.32-2.68,461650,112,108
+output-Set10.txt,3334,Salmonella,2.68-5.88,461650,126,127
+output-Set10.txt,3334,Salmonella,>5.88,461650,233,237

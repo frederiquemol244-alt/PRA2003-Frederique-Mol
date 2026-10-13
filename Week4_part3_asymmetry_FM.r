@@ -4,18 +4,16 @@
 # the data (normal strain vs mutant, or particle vs antiparticle), it tests
 # whether their average count per event is significantly different.
 #
-# Central values come from the full sample (Part 2):
-#   difference = avg_X - avg_minusX
-#   asymmetry  A = (avg_X - avg_minusX) / (avg_X + avg_minusX)
+# The asymmetry is the plain difference, in bacteria per event (no division):
+#   A_i = avg_X - avg_minusX in file i
 #
-# Uncertainties use the sub-sampling method: the difference and the
-# asymmetry are calculated in each of the 10 files separately, and the
-# spread (standard deviation) of those 10 results is the uncertainty.
-# X and -X come from the same events, so this also takes their correlation
-# into account.
+# Sub-sampling method: the difference is calculated in each of the 10 files
+# separately. The mean asymmetry is the average of those 10 results, and
+# their spread (standard deviation) is its uncertainty. X and -X come from
+# the same events, so this also takes their correlation into account.
+#   A          = mean(difference in file 1 ... file 10)
 #   sigma      = sd(difference in file 1 ... file 10)
-#   sigma_A    = sd(A in file 1 ... file 10)
-#   n_sigma    = |difference| / sigma
+#   n_sigma    = |A| / sigma
 #
 # Decision rule (fixed before looking at the numbers):
 #   n_sigma > 3  -> significant asymmetry
@@ -55,8 +53,6 @@ anti <- final_results[match(-pair_codes, final_results$code), ]
 a <- x$average_per_event
 b <- anti$average_per_event
 
-difference <- a - b
-asymmetry <- (a - b) / (a + b)
 
 # ---- Uncertainties from the spread of the 10 sub-samples ----
 events_per_file <- tapply(sub_samples$n_events, sub_samples$sub_sample, function(v) v[1])
@@ -70,14 +66,13 @@ per_file_average <- function(code) {
   counts / events_per_file
 }
 
+difference <- numeric(length(pair_codes))   #The mean asymmetry A, in bacteria per event
 sigma <- numeric(length(pair_codes))
-sigma_asymmetry <- numeric(length(pair_codes))
 for (i in seq_along(pair_codes)) {
   file_a <- per_file_average(pair_codes[i])
   file_b <- per_file_average(-pair_codes[i])
-  sigma[i] <- sd(file_a - file_b)
-  #A is undefined in a file where neither code occurs; such files are skipped
-  sigma_asymmetry[i] <- sd((file_a - file_b) / (file_a + file_b), na.rm = TRUE)
+  difference[i] <- mean(file_a - file_b)   #Average of the 10 sub-samples
+  sigma[i] <- sd(file_a - file_b)          #Spread of the 10 sub-samples
 }
 n_sigma <- abs(difference) / sigma
 
@@ -91,14 +86,11 @@ results <- data.frame(
   difference = signif(difference, 4),
   uncertainty = signif(sigma, 3),
   n_sigma = round(n_sigma, 2),
-  asymmetry_percent = round(100 * asymmetry, 3),
-  asymmetry_uncertainty_percent = round(100 * sigma_asymmetry, 3),
   significant = n_sigma > threshold
 )
 
 options(scipen = 999)
-print(results[, c("code", "name", "difference", "uncertainty", "n_sigma",
-                  "asymmetry_percent", "asymmetry_uncertainty_percent", "significant")],
+print(results[, c("code", "name", "difference", "uncertainty", "n_sigma", "significant")],
       row.names = FALSE)
 
 strains <- results[results$biology_strain, ]
@@ -111,32 +103,6 @@ cat("All pairs:", sum(results$significant), "of", nrow(results),
 write.csv(results, output_csv, row.names = FALSE)
 cat("\nSaved results to", output_csv, "\n")
 
-# ---- Figure: asymmetry of the 6 biology pairs, with 1-sigma error bars ----
-plot_file <- "asymmetry_plot_FM.png"
-short_names <- c("E. coli", "B. subtilis", "P. aeruginosa",
-                 "S. pneumoniae", "M. tuberculosis", "Salmonella")
-y <- rev(seq_len(nrow(strains)))   #First strain at the top
-A <- strains$asymmetry_percent
-err <- strains$asymmetry_uncertainty_percent
-point_colour <- ifelse(strains$significant, "#2a78d6", "#8b8a85")
-x_range <- c(-2, 6)   #Asymmetry range shown, in %
-
-png(plot_file, width = 1600, height = 900, res = 200)
-par(mar = c(4.5, 9, 3, 1), family = "sans", col.axis = "#52514e", fg = "#52514e")
-plot(NA, xlim = x_range, ylim = c(0.5, nrow(strains) + 0.5),
-     yaxt = "n", xlab = "Asymmetry A = (WT - mutant) / (WT + mutant)  [%]", ylab = "",
-     main = "Wild type vs mutant asymmetry (5M events, error bars = 1 sigma)",
-     cex.main = 0.95, font.main = 1, bty = "n")
-abline(v = seq(x_range[1], x_range[2], 1), col = "#e8e7e2")
-abline(v = 0, col = "#52514e", lty = 2)
-axis(2, at = y, labels = short_names, las = 1, tick = FALSE)
-#Error bars are clipped to the plot range
-arrows(pmax(A - err, x_range[1]), y, pmin(A + err, x_range[2]), y, angle = 90, code = 3,
-       length = 0.04, col = point_colour, lwd = 2)
-points(A, y, pch = 19, cex = 1.3, col = point_colour)
-text(pmin(A + err, x_range[2]), y, paste0(format(strains$n_sigma, nsmall = 2), " sigma"),
-     pos = 4, cex = 0.75, col = "#0b0b0b", xpd = TRUE)
-legend("topright", legend = c("> 3 sigma: significant", "<= 3 sigma: not significant"),
-       col = c("#2a78d6", "#8b8a85"), pch = 19, bty = "n", cex = 0.75)
-invisible(dev.off())
-cat("Saved figure to", plot_file, "\n")
+# ---- Figure ----
+#Figure 1 (asymmetry_plot_FM.png) is drawn in Python from the CSV above,
+#because the course asks for all plots in Python: run Week4_part3_plot_FM.py.
